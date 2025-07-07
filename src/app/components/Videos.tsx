@@ -1,3 +1,4 @@
+
 'use client';
 
 import { motion } from 'framer-motion';
@@ -16,6 +17,18 @@ export default function Videos() {
 
     const handleClick = () => {
         window.location.href = 'https://payfast.greenn.com.br/redirect/194682';
+    };
+
+    const getEmbedUrl = (url: string) => {
+        if (url.includes('drive.google.com')) {
+            const match = url.match(/file\/d\/([a-zA-Z0-9_-]+)/);
+            if (match && match[1]) {
+                return `https://drive.google.com/embed?id=${match[1]}`;
+            }
+        } else if (url.includes('youtube.com') || url.includes('youtu.be')) {
+            return url;
+        }
+        return ''; // Fallback for unsupported URLs
     };
 
     return (
@@ -45,7 +58,7 @@ export default function Videos() {
                                 <iframe 
                                     title={video.id} 
                                     className="w-full h-full" 
-                                    src={video.src.replace('/preview', '/embed')} 
+                                    src={getEmbedUrl(video.src)} 
                                     allow="autoplay; encrypted-media" 
                                     loading="lazy">
                                 </iframe>
