@@ -1,5 +1,5 @@
-import Header from './components/header';
 import MainSection from './components/MainSection';
+import Bio from './components/Bio';
 import CaroseulCards from './components/CaroseulCards';
 import SectionCheck from './components/SectionCheck';
 import SectionTwelve from './components/SectionTwelve';
@@ -120,8 +120,8 @@ export default function Home() {
       />
       </div>
       
-      <Header></Header>
       <MainSection></MainSection>
+      <Bio></Bio>
       <CaroseulCards></CaroseulCards>
       <SectionCheck></SectionCheck>
       <SectionTwelve></SectionTwelve>

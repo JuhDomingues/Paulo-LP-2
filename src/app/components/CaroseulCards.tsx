@@ -1,3 +1,4 @@
+
 'use client'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -22,47 +23,31 @@ export default function CaroseulCards() {
 
     return (
         <div className="mt-[5vh] mb-11 xl:px-[3%] lg:px[10%]">
-            <div className="block md:hidden">
-                <Swiper
-                    className='flex justify-center items-center'
-                    loop={true}
-                    autoplay={{ delay: 6000, disableOnInteraction: false }}
-                    slidesPerView={'auto'}
-                    centeredSlides={true}
-                    spaceBetween={15}
-                    modules={[Autoplay]}
-                >
-                    {cards.map((card, index) => (
-                        <SwiperSlide key={index} className="flex justify-center">
-                            <Card title={card.title} desc={card.desc} img={card.img} />
-                        </SwiperSlide>
-                    ))}
-                </Swiper>
-            </div>
-
-            <div className="hidden md:flex lg:hidden justify-center gap-3">
+            <Swiper
+                className='flex justify-center items-center'
+                loop={true}
+                autoplay={{ delay: 6000, disableOnInteraction: false }}
+                slidesPerView={1}
+                centeredSlides={true}
+                spaceBetween={15}
+                modules={[Autoplay]}
+                breakpoints={{
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 20
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 30
+                    }
+                }}
+            >
                 {cards.map((card, index) => (
-                    <div key={index} className="flex justify-center w-[50%]">
+                    <SwiperSlide key={index} className="flex justify-center">
                         <Card title={card.title} desc={card.desc} img={card.img} />
-                    </div>
+                    </SwiperSlide>
                 ))}
-            </div>
-
-            <div className="hidden lg:flex xl:hidden justify-center gap-4">
-                {cards.map((card, index) => (
-                    <div key={index} className="flex justify-center w-[30%]">
-                        <Card title={card.title} desc={card.desc} img={card.img} />
-                    </div>
-                ))}
-            </div>
-
-            <div className="hidden xl:flex justify-center gap-6">
-                {cards.map((card, index) => (
-                    <div key={index} className="flex justify-center w-[25%]">
-                        <Card title={card.title} desc={card.desc} img={card.img} />
-                    </div>
-                ))}
-            </div>
+            </Swiper>
         </div>
     );
 }
