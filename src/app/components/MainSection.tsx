@@ -1,9 +1,8 @@
-
 'use client';
 
 import Image from "next/image";
 import PauloHero from '@/images/paulo-autoridade-instagram-_6_.png';
-import { FaCheckCircle, FaShieldAlt, FaRegThumbsUp } from "react-icons/fa";
+import { FaCheckCircle } from "react-icons/fa";
 
 export default function MainSection() {
     const handleClick = () => {
@@ -46,16 +45,6 @@ export default function MainSection() {
                         <p className="mt-4 text-white font-light text-base sm:text-lg md:text-xl text-center">
                             Toque no botão e comece a construir sua autoridade hoje.
                         </p>
-                        <div className="flex items-center justify-center mt-4 space-x-4">
-                            <div className="flex items-center gap-2">
-                                <FaShieldAlt className="text-white" />
-                                <p className="text-white text-sm font-light">Compra 100% segura</p>
-                            </div>
-                            <div className="flex items-center gap-2">
-                                <FaRegThumbsUp className="text-white" />
-                                <p className="text-white text-sm font-light">7 dias de garantia</p>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

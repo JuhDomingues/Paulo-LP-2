@@ -1,10 +1,10 @@
+
 'use client';
 
 import { motion } from 'framer-motion';
 import Image from "next/image";
 import GreenCheck from '@/images/Symbol.svg';
 import Pix from '@/images/pix.svg';
-import { FaShieldAlt, FaRegThumbsUp } from "react-icons/fa";
 
 export default function SellingInfo() {
     const handleClick = () => {
@@ -75,16 +75,6 @@ export default function SellingInfo() {
                         >
                             QUERO TRANSFORMAR MEU INSTAGRAM
                         </button>
-                        <div className="flex items-center justify-center gap-6 mt-6">
-                            <div className="flex items-center gap-2">
-                                <FaShieldAlt className="text-white" />
-                                <p className="text-white text-sm font-light">Compra segura</p>
-                            </div>
-                            <div className="flex items-center gap-2">
-                                <FaRegThumbsUp className="text-white" />
-                                <p className="text-white text-sm font-light">Garantia de 7 dias</p>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </motion.div>
