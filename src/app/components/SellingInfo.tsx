@@ -1,4 +1,3 @@
-
 'use client';
 
 import { motion } from 'framer-motion';
@@ -72,7 +71,7 @@ export default function SellingInfo() {
                         </div>
                         <button
                             onClick={handleClick}
-                            className="mt-6 py-4 px-8 w-full max-w-sm bg-[#8EF27E] text-black font-bold rounded-lg hover:bg-[#76d469] transition-colors text-lg md:text-xl"
+                            className="mt-6 py-4 px-8 w-full max-w-sm bg-[#8EF27E] text-black font-bold rounded-lg hover:bg-[#76d469] transition-colors text-base md:text-lg"
                         >
                             QUERO TRANSFORMAR MEU INSTAGRAM
                         </button>

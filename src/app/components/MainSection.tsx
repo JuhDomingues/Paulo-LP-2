@@ -1,3 +1,4 @@
+
 'use client';
 
 import Image from "next/image";
@@ -37,7 +38,7 @@ export default function MainSection() {
                 <div className="lg:flex lg:flex-col lg:justify-center lg:items-center lg:w-[100%]">
                     <button
                         onClick={handleClick}
-                        className="w-full h-[7vh] button bg-white text-[#0B3E18] text-lg sm:text-xl md:text-2xl font-extrabold rounded-lg mt-6 lg:leading-7 shadow-lg hover:bg-gray-200 transition-colors"
+                        className="w-full h-[7vh] button bg-white text-[#0B3E18] text-base sm:text-lg md:text-xl font-extrabold rounded-lg mt-6 lg:leading-7 shadow-lg hover:bg-gray-200 transition-colors"
                     >
                         QUERO TER UMA AUTORIDADE INABALÁVEL
                     </button>
