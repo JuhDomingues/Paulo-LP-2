@@ -1,4 +1,3 @@
-
 'use client';
 
 import Image from "next/image";
@@ -22,15 +21,15 @@ export default function MainSection() {
 
                 <div className="mt-8 space-y-3 text-left">
                     <div className="flex items-center gap-3">
-                        <FaCheckCircle style={{ width: '1.25rem', height: '1.25rem' }} className="text-[#8EF27E]" />
+                        <FaCheckCircle size="1.25rem" className="text-[#8EF27E]" />
                         <p className="text-white text-lg">Como se posicionar como referência no seu mercado.</p>
                     </div>
                     <div className="flex items-center gap-3">
-                        <FaCheckCircle style={{ width: '1.25rem', height: '1.25rem' }} className="text-[#8EF27E]" />
+                        <FaCheckCircle size="1.25rem" className="text-[#8EF27E]" />
                         <p className="text-white text-lg">As estratégias para criar conteúdo que vende sem precisar de dancinhas.</p>
                     </div>
                     <div className="flex items-center gap-3">
-                        <FaCheckCircle style={{ width: '1.25rem', height: '1.25rem' }} className="text-[#8EF27E]" />
+                        <FaCheckCircle size="1.25rem" className="text-[#8EF27E]" />
                         <p className="text-white text-lg">O método para transformar seguidores em clientes fiéis.</p>
                     </div>
                 </div>
