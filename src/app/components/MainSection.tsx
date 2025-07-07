@@ -1,3 +1,4 @@
+
 'use client';
 
 import Image from "next/image";
@@ -21,22 +22,19 @@ export default function MainSection() {
 
                 <div className="mt-8 space-y-3 text-left">
                     <div className="flex items-center gap-3">
-                        <FaCheckCircle className="text-[#8EF27E] text-2xl" />
+                        <FaCheckCircle className="text-[#8EF27E] text-xl" />
                         <p className="text-white text-lg">Como se posicionar como referência no seu mercado.</p>
                     </div>
                     <div className="flex items-center gap-3">
-                        <FaCheckCircle className="text-[#8EF27E] text-2xl" />
+                        <FaCheckCircle className="text-[#8EF27E] text-xl" />
                         <p className="text-white text-lg">As estratégias para criar conteúdo que vende sem precisar de dancinhas.</p>
                     </div>
                     <div className="flex items-center gap-3">
-                        <FaCheckCircle className="text-[#8EF27E] text-2xl" />
+                        <FaCheckCircle className="text-[#8EF27E] text-xl" />
                         <p className="text-white text-lg">O método para transformar seguidores em clientes fiéis.</p>
                     </div>
                 </div>
 
-                <div className="pb-4 mt-8 border border-white flex items-center justify-center lg:w-[100%]">
-                    <p className="text-white mt-4 text-base sm:text-lg md:text-xl">De R$:127,00 por apenas 12x de <strong className="font-bold">R$2,99</strong></p>
-                </div>
                 <div className="lg:flex lg:flex-col lg:justify-center lg:items-center lg:w-[100%]">
                     <button
                         onClick={handleClick}
