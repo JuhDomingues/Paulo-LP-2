@@ -6,34 +6,55 @@ import GuaranteeIMG from '@/images/paulo-autoridade-instagram-_4_.png';
 
 export default function Guarantee() {
     return (
-        <div className="flex flex-col lg:flex-row justify-center items-center my-20 gap-12 lg:gap-24 px-4">
-            <motion.div
-                initial={{ opacity: 0, scale: 0.8 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 1 }}
-                viewport={{ once: true }} 
-            >
-                <Image src={GuaranteeIMG} alt="Selo de Garantia de 7 dias" className="w-[200px] lg:w-[300px]" />
-            </motion.div>
+        <div>
+            <div className="hidden lg:flex flex-row justify-center items-center my-20">
+                <motion.div
+                    initial={{ opacity: 0, rotateY: -180 }}
+                    whileInView={{ opacity: 1, rotateY: 0 }}
+                    transition={{ duration: 1 }}
+                    viewport={{ once: true }} 
+                    className="lg:mr-[8%]"
+                >
+                    <Image src={GuaranteeIMG} alt="" className="w-[72%]" />
+                </motion.div>
 
-            <div className="flex flex-col justify-center text-center lg:text-left max-w-lg">
-                <motion.h1 
-                    className="title font-bold leading-tight tracking-[-0.1094rem] sans text-white mb-6 text-3xl lg:text-5xl"
-                    initial={{ opacity: 0, y: -50 }}
+                <div className="flex flex-col lg:justify-start justify-center">
+                    <h1 className="title font-bold leading-[4.5625rem] tracking-[-0.1094rem] lg:text-left sans text-white mb-12 text-center">
+                        7 DIAS DE GARANTIA
+                    </h1>
+                    <p className="sora lg:text-[1.25rem] font-light tracking-[-0.0375rem] lg:text-left text-center text-white lg:mb-0 mb-12">
+                        Testou e não gostou?<br />
+                        Devolvemos seu investimento sem perguntas.<br />
+                        Aproveite sem medo e com total confiança no<br />seu resultado.
+                    </p>
+                </div>
+            </div>
+
+
+            <div className="lg:hidden flex flex-col justify-center items-center my-12">
+                <motion.h1
+                    initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1, delay: 0.2 }}
-                    viewport={{ once: true }}
+                    transition={{ duration: 1 }}
+                    viewport={{ once: true }} 
+                    className="title font-bold tracking-[-0.1094rem] lg:text-left sans text-white mb-12 text-center"
                 >
                     7 DIAS DE GARANTIA
                 </motion.h1>
-                <motion.p 
-                    className="sora text-lg lg:text-xl font-light tracking-[-0.0375rem] text-white leading-relaxed"
+
+                
+                <Image src={GuaranteeIMG} alt="" className="w-[40%] mb-12" />
+
+                <motion.p
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1, delay: 0.4 }}
-                    viewport={{ once: true }}
+                    transition={{ duration: 1 }}
+                    viewport={{ once: true }} 
+                    className="sora lg:text-[1.25rem] font-light leading-[2rem] tracking-[-0.0375rem] lg:text-left text-center text-white lg:mb-0 mb-12"
                 >
-                    Testou e não gostou? Devolvemos seu investimento sem perguntas. Aproveite sem medo e com total confiança no seu resultado.
+                    Testou e não gostou?<br />
+                    Devolvemos seu investimento sem perguntas.<br />
+                    Aproveite sem medo e com total confiança no<br />seu resultado.
                 </motion.p>
             </div>
         </div>

@@ -1,6 +1,5 @@
 import Header from './components/header';
 import MainSection from './components/MainSection';
-import Bio from './components/Bio';
 import CaroseulCards from './components/CaroseulCards';
 import SectionCheck from './components/SectionCheck';
 import SectionTwelve from './components/SectionTwelve';
@@ -121,14 +120,14 @@ export default function Home() {
       />
       </div>
       
+      <Header></Header>
       <MainSection></MainSection>
-      <Bio></Bio>
       <CaroseulCards></CaroseulCards>
       <SectionCheck></SectionCheck>
       <SectionTwelve></SectionTwelve>
       <BonusCourse></BonusCourse>
       
-      <div className="bg-[#135E26] lg:h-[104px] h-[24px] w-[100%] lg:mb-[160px] mb-[80px]"></div>
+      <div className="bg-[#135E26] animate-pulse lg:h-[104px] h-[24px] w-[100%] lg:mb-[160px] mb-[80px]"></div>
       
       <ProblemNumbers></ProblemNumbers>
       <Videos></Videos>

@@ -1,7 +1,3 @@
-'use client';
-
-import { motion } from 'framer-motion';
-
 export default function Videos() {
     const videos = [
         { id: '1A', title: 'Depoimento - Edinan Deuner', src: 'https://drive.google.com/file/d/1Ys5t3Oc5d-Ya18_IFRNKBZ08ehNntZkH/preview' },
@@ -14,60 +10,29 @@ export default function Videos() {
         { id: '4B', title: 'Antes e Depois - Eduardo Soler', src: 'https://www.youtube.com/embed/3UmTNH92gkI' }
     ];
 
-    const handleClick = () => {
-        window.location.href = 'https://payfast.greenn.com.br/redirect/194682';
-    };
-
     return (
         <div className="flex flex-col justify-center mb-16 px-4">
-            <motion.h1 
-                className="font-bold leading-tight text-center text-white mb-16 text-3xl sm:text-4xl lg:text-5xl"
-                initial={{ opacity: 0, y: -50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 1 }}
-            >
+            <h1 className="font-bold leading-tight text-center text-white mb-16 text-3xl sm:text-4xl lg:text-5xl">
                 Veja o que dizem nossos alunos:
-            </motion.h1>
+            </h1>
             <div className="flex justify-center">
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 w-full max-w-7xl">
-                    {videos.map((video, index) => (
-                        <motion.div 
-                            key={video.id} 
-                            className="flex flex-col items-center w-full bg-[#0B3E18] p-4 rounded-lg shadow-lg"
-                            initial={{ opacity: 0, y: 50 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{ once: true }}
-                            transition={{ duration: 0.5, delay: index * 0.1 }}
-                        >
-                            <h2 className="text-white font-semibold mb-4 text-center h-12">{video.title}</h2>
-                            <div className="w-full h-52 lg:h-64 bg-black rounded-md overflow-hidden">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full sm:w-3/4">
+                    {videos.map((video) => (
+                        <div key={video.id} className="flex flex-col items-center w-full">
+                            <h2 className="text-white font-semibold mb-2">{video.title}</h2>
+                            <div className="w-full h-52 lg:h-64 bg-gray-300">
                                 <iframe 
                                     title={video.id} 
                                     className="w-full h-full" 
-                                    src={video.src.replace('/preview', '/embed')} 
-                                    allow="autoplay; encrypted-media" 
+                                    src={video.src} 
+                                    allow="autoplay" 
                                     loading="lazy">
                                 </iframe>
                             </div>
-                        </motion.div>
+                        </div>
                     ))}
                 </div>
             </div>
-            <motion.div 
-                className="flex justify-center mt-12"
-                initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 1, delay: 0.5 }}
-            >
-                <button
-                    onClick={handleClick}
-                    className="rounded-md text-white w-[96%] max-w-md h-16 md:h-20 bg-[#8EF27E] text-[#0B3E18] mt-6 manrope text-lg md:text-xl lg:text-2xl font-extrabold leading-tight text-center button hover:bg-[#76d469] transition-colors"
-                >
-                    QUERO TRANSFORMAR MEU INSTAGRAM
-                </button>
-            </motion.div>
         </div>
     );
 }
