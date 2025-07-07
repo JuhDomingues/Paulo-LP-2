@@ -66,7 +66,7 @@ export default function Videos() {
                         </motion.div>
                     ))}
                 </div>
-            </motion.div>
+            </div>
             <motion.div 
                 className="flex justify-center mt-12"
                 initial={{ opacity: 0, y: 50 }}
