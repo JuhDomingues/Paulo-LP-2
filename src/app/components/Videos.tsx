@@ -1,8 +1,6 @@
 
 'use client';
 
-import { motion } from 'framer-motion';
-
 export default function Videos() {
     const videos = [
         { id: '1B', title: 'Antes e Depois - Edinan Deuner', src: 'https://www.youtube.com/embed/xMIPUhe-9v8' },
@@ -29,25 +27,17 @@ export default function Videos() {
 
     return (
         <div className="flex flex-col justify-center mb-16 px-4">
-            <motion.h1 
+            <h1 
                 className="font-bold leading-tight text-center text-white mb-16 text-3xl sm:text-4xl lg:text-5xl"
-                initial={{ opacity: 0, y: -50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 1 }}
             >
                 Veja o que dizem nossos alunos:
-            </motion.h1>
+            </h1>
             <div className="flex justify-center">
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 w-full max-w-7xl">
                     {videos.map((video, index) => (
-                        <motion.div 
+                        <div 
                             key={video.id} 
                             className="flex flex-col items-center w-full bg-[#0B3E18] p-4 rounded-lg shadow-lg"
-                            initial={{ opacity: 0, y: 50 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{ once: true }}
-                            transition={{ duration: 0.5, delay: index * 0.1 }}
                         >
                             <h2 className="text-white font-semibold mb-4 text-center h-12">{video.title}</h2>
                             <div className="w-full h-52 lg:h-64 bg-black rounded-md overflow-hidden">
@@ -59,16 +49,12 @@ export default function Videos() {
                                     loading="lazy">
                                 </iframe>
                             </div>
-                        </motion.div>
+                        </div>
                     ))}
                 </div>
             </div>
-            <motion.div 
+            <div 
                 className="flex justify-center mt-12"
-                initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 1, delay: 0.5 }}
             >
                 <button
                     onClick={handleClick}
@@ -76,7 +62,7 @@ export default function Videos() {
                 >
                     QUERO TRANSFORMAR MEU INSTAGRAM
                 </button>
-            </motion.div>
+            </div>
         </div>
     );
 }

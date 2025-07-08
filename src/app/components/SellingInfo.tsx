@@ -1,7 +1,6 @@
 
 'use client';
 
-import { motion } from 'framer-motion';
 import Image from "next/image";
 import GreenCheck from '@/images/Symbol.svg';
 import Pix from '@/images/pix.svg';
@@ -14,23 +13,15 @@ export default function SellingInfo() {
     return (
         <div className="container mx-auto px-4">
             <div className="mb-8 md:mb-12 lg:mb-16">
-                <motion.h1
+                <h1
                     className="text-2xl md:text-3xl lg:text-4xl font-bold leading-tight text-center text-white mb-6 mx-2"
-                    initial={{ opacity: 0, y: -50 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 1 }}
                 >
                     Por tudo isso, você pagará muito menos do que imagina!
-                </motion.h1>
+                </h1>
             </div>
 
-            <motion.div
+            <div
                 className="flex justify-center mb-12 md:mb-20 lg:mb-24"
-                initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 1 }}
             >
                 <div className="w-full lg:w-11/12 xl:w-10/12 bg-[rgba(226,246,227,0.06)] py-8 md:py-12 flex flex-col lg:flex-row items-center justify-between rounded-2xl border border-[#8EF27E] px-6 md:px-10 space-y-8 lg:space-y-0">
                     <div className="lg:w-1/2 text-center lg:text-left">
@@ -77,7 +68,7 @@ export default function SellingInfo() {
                         </button>
                     </div>
                 </div>
-            </motion.div>
+            </div>
         </div>
     );
 }
