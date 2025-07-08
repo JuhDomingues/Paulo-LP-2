@@ -5,13 +5,9 @@ import { motion } from 'framer-motion';
 
 export default function Videos() {
     const videos = [
-        { id: '1A', title: 'Depoimento - Edinan Deuner', src: 'https://drive.google.com/file/d/1Ys5t3Oc5d-Ya18_IFRNKBZ08ehNntZkH/preview' },
         { id: '1B', title: 'Antes e Depois - Edinan Deuner', src: 'https://www.youtube.com/embed/xMIPUhe-9v8' },
-        { id: '2A', title: 'Depoimento - Fernando dos S.', src: 'https://drive.google.com/file/d/1C8gNo20W7-1rfLRKCz7xwXjXvlqvw5Ld/preview' },
         { id: '2B', title: 'Antes e Depois - Fernando dos S.', src: 'https://www.youtube.com/embed/LCAEdVCD2mM' },
-        { id: '3A', title: 'Depoimento - Marcia Duarte', src: 'https://drive.google.com/file/d/1iCp6Q2_swfBRCEB5m7Y3-qdNnLBGLkvF/preview' },
         { id: '3B', title: 'Antes e Depois - Marcia Duarte', src: 'https://www.youtube.com/embed/eXP0tDhFUQs' },
-        { id: '4A', title: 'Depoimento - Eduardo Soler', src: 'https://drive.google.com/file/d/1HXTSZwaLdxm_xh8N7VJ4AmASzzRphFop/preview' },
         { id: '4B', title: 'Antes e Depois - Eduardo Soler', src: 'https://www.youtube.com/embed/3UmTNH92gkI' }
     ];
 

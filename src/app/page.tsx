@@ -1,6 +1,5 @@
 import MainSection from './components/MainSection';
 import Bio from './components/Bio';
-import CaroseulCards from './components/CaroseulCards';
 import SectionCheck from './components/SectionCheck';
 import SectionTwelve from './components/SectionTwelve';
 import BonusCourse from './components/BonusCourse';
@@ -121,8 +120,6 @@ export default function Home() {
       </div>
       
       <MainSection></MainSection>
-      <Bio></Bio>
-      <CaroseulCards></CaroseulCards>
       <SectionCheck></SectionCheck>
       <SectionTwelve></SectionTwelve>
       <BonusCourse></BonusCourse>
@@ -132,6 +129,7 @@ export default function Home() {
       <ProblemNumbers></ProblemNumbers>
       <Videos></Videos>
       <SellingInfo></SellingInfo>
+      <Bio></Bio>
       
       <div className="h-[2px] bg-[#8EF27E] w-[100%] my-12 animate-pulse"></div>
       
