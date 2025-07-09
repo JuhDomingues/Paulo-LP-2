@@ -47,6 +47,8 @@ export default function SectionTwelve() {
                         {[ 
                             "Guia de 12 Passos para Autoridade no Instagram",
                             "Curso de Implementação Prática",
+                            "Sessão em grupo",
+                            "Sessão Individual",
                         ].map((text, index) => (
                             <div key={index} className="flex items-start gap-3">
                                 <Image className="w-5 h-5 mt-1" src={GreenCheck} alt="check" />
@@ -58,7 +60,7 @@ export default function SectionTwelve() {
                     </div>
                         
                     <div className="pb-4 mt-8 border border-white flex items-center justify-center">
-                        <p className="text-white mt-4 text-lg sm:text-xl md:text-2xl">De R$127,00 por apenas <strong className="font-bold text-[#8EF27E]">R$29,90</strong></p>
+                        <p className="text-white mt-4 text-lg sm:text-xl md:text-2xl">De <span className="line-through">R$1088,00</span> por apenas <strong className="font-bold text-[#8EF27E]">R$29,90</strong></p>
                     </div>
 
                     <button
