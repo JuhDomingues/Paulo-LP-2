@@ -50,7 +50,7 @@ export default function MainSection() {
             </div>
 
             <div className="flex justify-center w-full lg:w-[50%]">
-                <Image className="w-[100%] sm:w-[90%] md:w-[80%] lg:w-[600px] xl:w-[700px] max-w-[900px] lg:mt-6 mt-16 rounded-lg shadow-2xl" src={PauloHero} alt="Paulo - Especialista em Autoridade no Instagram" loading="lazy" />
+                <Image className="hidden lg:block w-[100%] sm:w-[90%] md:w-[80%] lg:w-[600px] xl:w-[700px] max-w-[900px] lg:mt-6 mt-16 rounded-lg shadow-2xl" src={PauloHero} alt="Paulo - Especialista em Autoridade no Instagram" loading="lazy" />
             </div>
         </div>
     );
