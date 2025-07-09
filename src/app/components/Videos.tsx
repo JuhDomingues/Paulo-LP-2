@@ -34,7 +34,7 @@ export default function Videos() {
             </h1>
             <div className="flex justify-center">
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 w-full max-w-7xl">
-                    {videos.map((video, index) => (
+                    {videos.map((video) => (
                         <div 
                             key={video.id} 
                             className="flex flex-col items-center w-full bg-[#0B3E18] p-4 rounded-lg shadow-lg"
