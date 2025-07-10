@@ -31,9 +31,9 @@ export default function SellingInfo() {
                         <div className="space-y-4">
                             {[
                                 "Acesso completo ao Guia de 12 Passos",
-                                "Curso de Implementação Prática",
                                 "Sessão em grupo",
-                                "Sessão Individual"
+                                "Sessão Individual",
+                                "Curso de Implementação Prática"
                             ].map((text, index) => (
                                 <div key={index} className="flex items-center gap-3">
                                     <Image className="w-5 h-5" src={GreenCheck} alt="check" />

@@ -122,8 +122,8 @@ export default function Home() {
       <MainSection></MainSection>
       <SectionCheck></SectionCheck>
       <SectionTwelve></SectionTwelve>
+      <div className="bg-[#135E26] animate-pulse lg:h-[104px] h-[24px] w-[100%] lg:mb-[160px] mb-[80px]"></div>
       <BonusCourse></BonusCourse>
-      
       <div className="bg-[#135E26] animate-pulse lg:h-[104px] h-[24px] w-[100%] lg:mb-[160px] mb-[80px]"></div>
       
       <ProblemNumbers></ProblemNumbers>

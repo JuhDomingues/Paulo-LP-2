@@ -46,7 +46,6 @@ export default function SectionTwelve() {
                     >
                         {[ 
                             "Guia de 12 Passos para Autoridade no Instagram",
-                            "Curso de Implementação Prática",
                             "Sessão em grupo",
                             "Sessão Individual",
                         ].map((text, index) => (
