@@ -1,7 +1,7 @@
 'use client';
 
 import Image from "next/image";
-import PauloHero from '@/images/paulo-autoridade-instagram-_6_.png';
+import PauloHero from '@/images/SESSAO-INDIVIDUAL-2.png';
 import { FaCheckCircle } from "react-icons/fa";
 
 export default function MainSection() {
@@ -12,7 +12,7 @@ export default function MainSection() {
     return (
         <div className="flex flex-col-reverse lg:flex-row justify-center items-center lg:mt-[8vh] mt-[5vh] px-4 sm:px-8 lg:px-12 max-w-6xl mx-auto gap-6 lg:gap-12">
             <div className="lg:mt-[8vh] w-full lg:max-w-[50%] text-center lg:text-left">
-                <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight tracking-[-0.05vw]">
+                <h1 className="text-white text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold leading-tight tracking-[-0.05vw]">
                     Cansado de se sentir <strong className="text-[#8EF27E]">frustrado</strong>? Cobre o preço justo pelo seu trabalho e atraia clientes de alto padrão no Instagram
                 </h1>
                 <p className="text-white text-base sm:text-lg md:text-xl font-light leading-7 mt-4 lg:w-[90%]">
@@ -26,7 +26,7 @@ export default function MainSection() {
                     </div>
                     <div className="flex items-center gap-3">
                         <FaCheckCircle size="1.25rem" className="text-[#8EF27E] w-5 h-5" />
-                        <p className="text-white text-lg">As estratégias para criar conteúdo que vende sem precisar de dancinhas.</p>
+                        <p className="text-white text-lg">As estratégias para criar conteúdo que vende sem dancinhas.</p>
                     </div>
                     <div className="flex items-center gap-3">
                         <FaCheckCircle size="1.25rem" className="text-[#8EF27E] w-5 h-5" />
@@ -50,7 +50,7 @@ export default function MainSection() {
             </div>
 
             <div className="flex justify-center w-full lg:w-[50%]">
-                <Image className="hidden lg:block w-[100%] sm:w-[90%] md:w-[80%] lg:w-[600px] xl:w-[700px] max-w-[900px] lg:mt-6 mt-16 rounded-lg shadow-2xl" src={PauloHero} alt="Paulo - Especialista em Autoridade no Instagram" loading="lazy" />
+                <Image className="hidden lg:block w-[100%] sm:w-[90%] md:w-[80%] lg:w-[600px] xl:w-[700px] max-w-[900px] lg:mt-6 mt-16 rounded-lg shadow-2xl" src={PauloHero} alt="Sessão Individual" loading="lazy" />
             </div>
         </div>
     );

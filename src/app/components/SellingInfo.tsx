@@ -32,7 +32,6 @@ export default function SellingInfo() {
                             {[
                                 "Acesso completo ao Guia de 12 Passos",
                                 "Curso de Implementação Prática",
-                                "Garantia de 7 dias",
                                 "Sessão em grupo",
                                 "Sessão Individual"
                             ].map((text, index) => (
@@ -49,7 +48,7 @@ export default function SellingInfo() {
                     <div className="lg:w-1/2 flex flex-col items-center justify-center w-full mt-8 lg:mt-0">
                         <div className="text-center space-y-4 w-full">
                             <p className="text-lg md:text-xl text-white">
-                                De: <span className="line-through">R$1088,00</span>
+                                De: <span className="text-[#8EF27E]">R$1088,00</span>
                             </p>
                             <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
                                 POR APENAS<br />

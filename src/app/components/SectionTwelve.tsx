@@ -60,7 +60,7 @@ export default function SectionTwelve() {
                     </div>
                         
                     <div className="pb-4 mt-8 border border-white flex items-center justify-center">
-                        <p className="text-white mt-4 text-lg sm:text-xl md:text-2xl">De <span className="line-through">R$1088,00</span> por apenas <strong className="font-bold text-[#8EF27E]">R$29,90</strong></p>
+                        <p className="text-white mt-4 text-lg sm:text-xl md:text-2xl">De <span className="text-[#8EF27E]">R$1088,00</span> por apenas <strong className="font-bold text-[#8EF27E]">R$29,90</strong></p>
                     </div>
 
                     <button

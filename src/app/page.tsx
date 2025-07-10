@@ -75,47 +75,47 @@ export default function Home() {
         <Image 
         src={Elipse} 
         alt="Elipse Background" 
-        className="absolute top-[-2%] left-[-10%] w-[700px] h-[700px] opacity-[0.07] blur-[64px] drop-shadow-[0_0_50px_rgba(52,199,89,0.2)]" loading="lazy"
+        className="absolute top-[-2%] left-[-10%] w-[700px] h-[700px] opacity-[0.07] blur-[64px]" loading="lazy"
       />
       <Image 
         src={Elipse} 
         alt="Elipse Background" 
-        className="absolute bottom-[-15%] left-[10%] w-[700px] h-[700px] opacity-[0.07] blur-[64px] drop-shadow-[0_0_50px_rgba(52,199,89,0.2)]" loading="lazy"
+        className="absolute bottom-[-15%] left-[10%] w-[700px] h-[700px] opacity-[0.07] blur-[64px]" loading="lazy"
       />
       <Image 
         src={Elipse} 
         alt="Elipse Background" 
-        className="absolute top-[-20%] right-[90%] w-[700px] h-[700px] opacity-[0.07] blur-[64px] drop-shadow-[0_0_50px_rgba(52,199,89,0.2)]" loading="lazy"
+        className="absolute top-[-20%] right-[90%] w-[700px] h-[700px] opacity-[0.07] blur-[64px]" loading="lazy"
       />
       <Image 
         src={Elipse} 
         alt="Elipse Background" 
-        className="absolute bottom-[-10%] right-[-10%] w-[700px] h-[700px] opacity-[0.07] blur-[64px] drop-shadow-[0_0_50px_rgba(52,199,89,0.2)]" loading="lazy"
+        className="absolute bottom-[-10%] right-[-10%] w-[700px] h-[700px] opacity-[0.07] blur-[64px]" loading="lazy"
       />
       <Image 
         src={Elipse} 
         alt="Elipse Background" 
-        className="absolute bottom-[12%] left-[-20%] w-[700px] h-[700px] opacity-[0.07] blur-[64px] drop-shadow-[0_0_50px_rgba(52,199,89,0.2)]" loading="lazy"
+        className="absolute bottom-[12%] left-[-20%] w-[700px] h-[700px] opacity-[0.07] blur-[64px]" loading="lazy"
       />
       <Image 
         src={Elipse} 
         alt="Elipse Background" 
-        className="absolute top-[5%] left-[95%] w-[700px] h-[700px] opacity-[0.07] blur-[64px] drop-shadow-[0_0_50px_rgba(52,199,89,0.2)]" loading="lazy"
+        className="absolute top-[5%] left-[95%] w-[700px] h-[700px] opacity-[0.07] blur-[64px]" loading="lazy"
       />
       <Image 
         src={Elipse} 
         alt="Elipse Background" width={120}
-        className="absolute top-[58%] right-[5%] w-[700px] h-[700px] opacity-[0.07] blur-[64px] drop-shadow-[0_0_50px_rgba(52,199,89,0.2)] z-0" loading="lazy"
+        className="absolute top-[58%] right-[5%] w-[700px] h-[700px] opacity-[0.07] blur-[64px] z-0" loading="lazy"
       />
       <Image 
         src={Elipse} 
         alt="Elipse Background" 
-        className="absolute bottom-[35%] left-[2%] w-[700px] h-[700px] opacity-[0.07] blur-[64px] drop-shadow-[0_0_50px_rgba(52,199,89,0.2)]" loading="lazy"
+        className="absolute bottom-[35%] left-[2%] w-[700px] h-[700px] opacity-[0.07] blur-[64px]" loading="lazy"
       />
       <Image 
         src={Elipse} 
         alt="Elipse Background" 
-        className="absolute bottom-[5%] right-[-60%] w-[700px] h-[700px] opacity-[0.07] blur-[64px] drop-shadow-[0_0_50px_rgba(52,199,89,0.2)]" loading="lazy"
+        className="absolute bottom-[5%] right-[-60%] w-[700px] h-[700px] opacity-[0.07] blur-[64px]" loading="lazy"
       />
       </div>
       
