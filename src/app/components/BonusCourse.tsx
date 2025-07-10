@@ -17,7 +17,7 @@ export default function BonusCourse() {
                 <Image
                     src={Notebook}
                     alt="Notebook com o curso de implementação"
-                    className="w-[280px] lg:w-[400px] h-auto rounded-lg shadow-2xl"
+                    className="w-[280px] lg:w-[400px] h-auto rounded-lg"
                 />
             </div>
         </div>

@@ -1,7 +1,7 @@
 'use client';
 
 import Image from "next/image";
-import PauloPhoto from '@/images/paulo-autoridade-instagram-_1_2.png';
+import PauloPhoto from '@/images/SESSAO-INDIVIDUAL-2.png';
 import GreenCheck from '@/images/Symbol.svg';
 import { FaShieldAlt, FaRegThumbsUp } from "react-icons/fa";
 
@@ -28,8 +28,8 @@ export default function SectionTwelve() {
                     <div>
                         <Image
                             src={PauloPhoto}
-                            alt="Guia Autoridade no Instagram"
-                            className="w-[280px] lg:w-[450px] rounded-lg shadow-2xl"
+                            alt="Sessão Individual"
+                            className="w-[280px] lg:w-[450px] rounded-lg"
                         />
                     </div>
                 </div>
@@ -64,7 +64,7 @@ export default function SectionTwelve() {
 
                     <button
                         onClick={handleClick}
-                        className="w-full h-[60px] bg-white text-[#0B3E18] text-lg lg:text-xl font-extrabold mt-6 rounded-lg shadow-md hover:bg-gray-200 transition-colors"
+                        className="w-full h-[60px] bg-white text-[#0B3E18] text-lg lg:text-xl font-extrabold mt-6 rounded-lg hover:bg-gray-200 transition-colors"
                     >
                         QUERO ACESSAR AGORA
                     </button>

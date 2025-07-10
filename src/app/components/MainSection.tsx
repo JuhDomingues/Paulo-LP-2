@@ -21,15 +21,15 @@ export default function MainSection() {
 
                 <div className="mt-8 space-y-3 text-left">
                     <div className="flex items-center gap-3">
-                        <FaCheckCircle size="1.25rem" className="text-[#8EF27E] w-5 h-5" />
+                        <FaCheckCircle size="20px" className="text-[#8EF27E]" />
                         <p className="text-white text-lg">Como se posicionar como referência no seu mercado.</p>
                     </div>
                     <div className="flex items-center gap-3">
-                        <FaCheckCircle size="1.25rem" className="text-[#8EF27E] w-5 h-5" />
+                        <FaCheckCircle size="20px" className="text-[#8EF27E]" />
                         <p className="text-white text-lg">As estratégias para criar conteúdo que vende sem dancinhas.</p>
                     </div>
                     <div className="flex items-center gap-3">
-                        <FaCheckCircle size="1.25rem" className="text-[#8EF27E] w-5 h-5" />
+                        <FaCheckCircle size="20px" className="text-[#8EF27E]" />
                         <p className="text-white text-lg">O método para transformar seguidores em clientes fiéis.</p>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ export default function MainSection() {
                 <div className="lg:flex lg:flex-col lg:justify-center lg:items-center lg:w-[100%]">
                     <button
                         onClick={handleClick}
-                        className="w-full h-[7vh] button bg-white text-[#0B3E18] text-base sm:text-lg md:text-xl font-extrabold rounded-lg mt-6 lg:leading-7 shadow-lg hover:bg-gray-200 transition-colors"
+                        className="w-full h-[7vh] button bg-white text-[#0B3E18] text-base sm:text-lg md:text-xl font-extrabold rounded-lg mt-6 lg:leading-7 hover:bg-gray-200 transition-colors"
                     >
                         QUERO TER UMA AUTORIDADE INABALÁVEL
                     </button>
@@ -50,7 +50,7 @@ export default function MainSection() {
             </div>
 
             <div className="flex justify-center w-full lg:w-[50%]">
-                <Image className="hidden lg:block w-[100%] sm:w-[90%] md:w-[80%] lg:w-[600px] xl:w-[700px] max-w-[900px] lg:mt-6 mt-16 rounded-lg shadow-2xl" src={PauloHero} alt="Sessão Individual" loading="lazy" />
+                <Image className="w-[100%] sm:w-[90%] md:w-[80%] lg:w-[600px] xl:w-[700px] max-w-[900px] lg:mt-6 mt-16 rounded-lg" src={PauloHero} alt="Sessão Individual" loading="lazy" />
             </div>
         </div>
     );

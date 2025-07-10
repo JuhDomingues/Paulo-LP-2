@@ -37,7 +37,7 @@ export default function Videos() {
                     {videos.map((video) => (
                         <div 
                             key={video.id} 
-                            className="flex flex-col items-center w-full bg-[#0B3E18] p-4 rounded-lg shadow-lg"
+                            className="flex flex-col items-center w-full bg-[#0B3E18] p-4 rounded-lg"
                         >
                             <h2 className="text-white font-semibold mb-4 text-center h-12">{video.title}</h2>
                             <div className="w-full h-52 lg:h-64 bg-black rounded-md overflow-hidden">

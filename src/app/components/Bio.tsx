@@ -6,7 +6,7 @@ export default function Bio() {
     return (
         <div className="flex flex-col lg:flex-row items-center justify-center max-w-6xl mx-auto mt-20 lg:mt-32 px-4 sm:px-8 lg:px-12 gap-8 lg:gap-16">
             <div className="w-full lg:w-[30%]">
-                <Image src={PauloBio} alt="Paulo" className="rounded-full shadow-2xl mx-auto" width={250} height={250} />
+                <Image src={PauloBio} alt="Paulo" className="rounded-full mx-auto" width={250} height={250} />
             </div>
             <div className="w-full lg:w-[70%] text-center lg:text-left">
                 <h2 className="text-white text-3xl lg:text-4xl font-bold">Quem é Paulo Collet?</h2>
